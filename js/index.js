@@ -8,6 +8,9 @@ form.addEventListener('submit',function(event){
           const city = form.elements.city.value;
           const state = form.elements.state.value;
           const zip = form.elements.zip.value;
+          const gender = form.elements.gender.value;
+
+          console.log(gender)
 
           const data = {
                     firstName,
@@ -17,7 +20,8 @@ form.addEventListener('submit',function(event){
                     address,
                     city,
                     state,
-                    zip
+                    zip,
+                    gender
           }
           console.log(data);
           localStorage.setItem('formData', JSON.stringify(data));

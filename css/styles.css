@@ -5,6 +5,7 @@ html, body{
           padding: 0px;
           margin: 0px;
           box-sizing: border-box;
+          color: #fff;
 }
 nav{
           position: sticky;
@@ -32,4 +33,15 @@ nav a{
 .form-select:active option{
           background-color: transparent !important;
           color: black;
+}
+.labell{
+          font-size: 18px;
+          color: #cecece;
+}
+.data{
+          font-size: 18px;
+          color: rgb(145, 145, 255);
+}
+option{
+          color: black !important;
 }
